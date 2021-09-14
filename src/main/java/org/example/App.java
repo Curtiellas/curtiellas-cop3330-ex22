@@ -18,7 +18,7 @@ public class App
 
         for (int a = 0; a < numbers.length; a++)
         {
-            System.out.println("Enter the " + names[a] + " number: ");
+            System.out.print("Enter the " + names[a] + " number: ");
             numbers[a] = sc.nextDouble();
         }
 
